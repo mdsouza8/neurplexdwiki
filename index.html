@@ -45,127 +45,211 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/output.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
   </head>
   <body>
     <!-- ====== Header Start ====== -->
-    <header class="ud-header-vertical">
+<!--
+    <header class="ud-header text-sm">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg">
-<!--
               <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo/logo-3.svg" alt="Logo" />
               neuroplexd
 				</a>
--->
               <button class="navbar-toggler">
                 <span class="toggler-icon"> </span>
                 <span class="toggler-icon"> </span>
                 <span class="toggler-icon"> </span>
               </button>
 
-              <div class="navbar-collapse navbar-vertical">
-                <ul id="nav" class="navbar-nav mx-auto navbar-vertical">
-                  <li class="nav-item navbar-vertical">
+              <div class="navbar-collapse text-sm px-4">
+                <ul id="nav" class="navbar-nav mx-auto">
+                  <li class="nav-item">
                     <a class="ud-menu-scroll" href="#home">Home</a>
                   </li>
-
-                  <li class="nav-item navbar-vertical">
-                    <a class="ud-menu-scroll" href="">Acute Stroke</a>
-                  </li>
-					<li class="nav-item navbar-vertical">
-						<a class="ud-menu-scroll" href="">Status Epilepticus</a>
-					</li>
-					<li class="nav-item navbar-vertical">
-						<a class="ud-menu-scroll" href="">Herniations</a>
-					</li>
-					<li class="nav-item navbar-vertical">
-						<a class="ud-menu-scroll" href="">Neuro ICU</a>
-					</li>
-					<li class="nav-item navbar-vertical">
-						<a class="ud-menu-scroll" href="">Stroke</a>
-					</li>
-					<li class="nav-item navbar-vertical">
-						<a class="ud-menu-scroll" href="">Epilepsys</a>
-					</li>
-					<li class="nav-item navbar-vertical">
-						<a class="ud-menu-scroll" href="">Status Epilepticus</a>
-					</li>
-<!--
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#pricing">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#team">Team</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#contact">Contact</a>
-                  </li>
--->
-<!--
+                   
                   <li class="nav-item nav-item-has-children">
-                    <a href="javascript:void(0)"> Pages </a>
+                    <a href="javascript:void(0)"> Acute </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="acute-stroke.html" class="ud-submenu-link">
+                          Ischemic Stroke
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="javascript:void(0)" class="ud-submenu-link">
+                          Hemorrhage
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="javascript:void(0)" class="ud-submenu-link">
+                          Status Epilepticus
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="javascript:void(0)" class="ud-submenu-link">
+                          Herniation
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Subspecialty </a>
                     <ul class="ud-submenu">
                       <li class="ud-submenu-item">
                         <a href="about.html" class="ud-submenu-link">
-                          About Page
+                          Epilepsy
                         </a>
                       </li>
                       <li class="ud-submenu-item">
                         <a href="pricing.html" class="ud-submenu-link">
-                          Pricing Page
+                          Headache
                         </a>
                       </li>
                       <li class="ud-submenu-item">
                         <a href="contact.html" class="ud-submenu-link">
-                          Contact Page
+                          Neuromuscular
                         </a>
                       </li>
                       <li class="ud-submenu-item">
                         <a href="blog.html" class="ud-submenu-link">
-                          Blog Grid Page
+                          Neuroimmunology
                         </a>
                       </li>
                       <li class="ud-submenu-item">
                         <a href="blog-details.html" class="ud-submenu-link">
-                          Blog Details Page
+                          Movement
                         </a>
                       </li>
                       <li class="ud-submenu-item">
                         <a href="login.html" class="ud-submenu-link">
-                          Sign In Page
+                          Stroke
                         </a>
-                      </li>
-                      <li class="ud-submenu-item">
-                        <a href="404.html" class="ud-submenu-link">404 Page</a>
                       </li>
                     </ul>
                   </li>
--->
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Documentation </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="about.html" class="ud-submenu-link">
+                          Acute Ischemic Stroke
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="pricing.html" class="ud-submenu-link">
+                          Acute Bleed
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="contact.html" class="ud-submenu-link">
+                          Status Epilepticus
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="blog.html" class="ud-submenu-link">
+                          Herniation
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)"> Calculators </a>
+                    <ul class="ud-submenu">
+                      <li class="ud-submenu-item">
+                        <a href="about.html" class="ud-submenu-link">
+                          Acute Ischemic Stroke
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="pricing.html" class="ud-submenu-link">
+                          Acute Bleed
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="contact.html" class="ud-submenu-link">
+                          Status Epilepticus
+                        </a>
+                      </li>
+                      <li class="ud-submenu-item">
+                        <a href="blog.html" class="ud-submenu-link">
+                          Herniation
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
 
-<!--
+
               <div class="navbar-btn d-none d-sm-inline-block">
                 <a href="login.html" class="ud-main-btn ud-login-btn">
-                  Sign In
+                  About
                 </a>
                 <a class="ud-main-btn ud-white-btn" href="javascript:void(0)">
-                  Sign Up
+                  Contact
                 </a>
               </div>
--->
+
             </nav>
           </div>
         </div>
       </div>
-    </header>
+    </header>  
+-->
     <!-- ====== Header End ====== -->
-<div class="content">	  
+<div class="
+   bg-[#08102C]
+   border border-light
+   shadow-card
+   rounded-sm
+   py-3
+   px-4
+   sm:px-6
+   md:px-8 md:py-5
+			margin-0
+   ">
+   <ul class="flex items-center">
+      <li class="flex items-center">
+         <a href="index.html" class="
+            font-semibold
+            text-base text-white
+            hover:text-primary
+            flex
+			opacity-100								 
+            items-center								 
+            ">
+            <span class="pr-2">
+               <svg width="15" height="15" viewBox="0 0 15 15" class="fill-current">
+                  <path d="M13.3503 14.6503H10.2162C9.51976 14.6503 8.93937 14.0697 8.93937 13.3729V10.8182C8.93937 10.5627 8.73043 10.3537 8.47505 10.3537H6.54816C6.29279 10.3537 6.08385 10.5627 6.08385 10.8182V13.3497C6.08385 14.0464 5.50346 14.627 4.80699 14.627H1.62646C0.929989 14.627 0.349599 14.0464 0.349599 13.3497V5.24431C0.349599 4.89594 0.535324 4.5708 0.837127 4.385L6.96604 0.506501C7.29106 0.297479 7.73216 0.297479 8.05717 0.506501L14.1861 4.385C14.4879 4.5708 14.6504 4.89594 14.6504 5.24431V13.3265C14.6504 14.0697 14.07 14.6503 13.3503 14.6503ZM6.52495 9.54086H8.45184C9.14831 9.54086 9.7287 10.1215 9.7287 10.8182V13.3497C9.7287 13.6052 9.93764 13.8142 10.193 13.8142H13.3503C13.6057 13.8142 13.8146 13.6052 13.8146 13.3497V5.26754C13.8146 5.19786 13.7682 5.12819 13.7218 5.08174L7.61608 1.20324C7.54643 1.15679 7.45357 1.15679 7.40714 1.20324L1.27822 5.08174C1.20858 5.12819 1.18536 5.19786 1.18536 5.26754V13.3729C1.18536 13.6284 1.3943 13.8374 1.64967 13.8374H4.80699C5.06236 13.8374 5.2713 13.6284 5.2713 13.3729V10.8182C5.24809 10.1215 5.82848 9.54086 6.52495 9.54086Z"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.51145 1.55106L13.465 5.33294V13.3497C13.465 13.412 13.4126 13.4644 13.3503 13.4644H10.193C10.1307 13.4644 10.0783 13.412 10.0783 13.3497V10.8182C10.0783 9.92832 9.34138 9.19112 8.45184 9.19112H6.52495C5.63986 9.19112 4.89529 9.92522 4.9217 10.8237V13.3729C4.9217 13.4352 4.86929 13.4877 4.80699 13.4877H1.64967C1.58738 13.4877 1.53496 13.4352 1.53496 13.3729V5.33311L7.51145 1.55106ZM1.27822 5.08174L7.40714 1.20324C7.45357 1.15679 7.54643 1.15679 7.61608 1.20324L13.7218 5.08174C13.7682 5.12819 13.8146 5.19786 13.8146 5.26754V13.3497C13.8146 13.6052 13.6057 13.8142 13.3503 13.8142H10.193C9.93764 13.8142 9.7287 13.6052 9.7287 13.3497V10.8182C9.7287 10.1215 9.14831 9.54086 8.45184 9.54086H6.52495C5.82848 9.54086 5.24809 10.1215 5.2713 10.8182V13.3729C5.2713 13.6284 5.06236 13.8374 4.80699 13.8374H1.64967C1.3943 13.8374 1.18536 13.6284 1.18536 13.3729V5.26754C1.18536 5.19786 1.20858 5.12819 1.27822 5.08174ZM13.3503 15H10.2162C9.32668 15 8.58977 14.2628 8.58977 13.3729V10.8182C8.58977 10.7559 8.53735 10.7035 8.47505 10.7035H6.54816C6.48587 10.7035 6.43345 10.7559 6.43345 10.8182V13.3497C6.43345 14.2396 5.69654 14.9768 4.80699 14.9768H1.62646C0.736911 14.9768 0 14.2396 0 13.3497V5.24431C0 4.77131 0.251303 4.33591 0.651944 4.08836L6.77814 0.211575C7.21781 -0.0705255 7.80541 -0.0705251 8.24508 0.211576C8.24546 0.211821 8.24584 0.212066 8.24622 0.212311L14.3713 4.08838C14.7853 4.34424 15 4.78759 15 5.24431V13.3265C15 14.2587 14.2671 15 13.3503 15ZM14.1861 4.385L8.05717 0.506501C7.73216 0.297479 7.29106 0.297479 6.96604 0.506501L0.837127 4.385C0.535324 4.5708 0.349599 4.89594 0.349599 5.24431V13.3497C0.349599 14.0464 0.929989 14.627 1.62646 14.627H4.80699C5.50346 14.627 6.08385 14.0464 6.08385 13.3497V10.8182C6.08385 10.5627 6.29279 10.3537 6.54816 10.3537H8.47505C8.73043 10.3537 8.93937 10.5627 8.93937 10.8182V13.3729C8.93937 14.0697 9.51976 14.6503 10.2162 14.6503H13.3503C14.07 14.6503 14.6504 14.0697 14.6504 13.3265V5.24431C14.6504 4.89594 14.4879 4.5708 14.1861 4.385Z"></path>
+               </svg>
+            </span>
+            Home
+		  </a>
+      </li>
+   </ul>
+</div>	
+    <!-- ====== Banner Start ====== -->
+    <section class="ud-page-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-banner-content">
+              <h1>neurplexd.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Banner End ====== -->
+	  
     <!-- ====== Hero Start ====== -->
-    <section class="ud-hero" id="home">
+    <section class="ud-hero margin-0 md\:-mt-5 sm\:-mt-5 md\:py-0 md\:-mt-1" id="home">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -181,34 +265,34 @@
 -->
               <ul class="ud-hero-buttons">
                 <li>
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-red-btn">
+					<a href="acute-stroke.html" rel="nofollow noopener" target="_self" class="ud-main-btn ud-red-btn">
                     	Acute Stroke
 					</a><br/>
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-red-btn">
+					<a href="" rel="nofollow noopener" target="_self" class="ud-main-btn ud-red-btn">
                     	Status Epilepticus
 					</a><br/>
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-red-btn">
-                    	Brain Code (Herniation)
+					<a href="" rel="nofollow noopener" target="_self" class="ud-main-btn ud-red-btn">
+                    	Herniation
 					</a><br/>	
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-blue-btn">
+					<a href="" rel="nofollow noopener" target="_self" class="ud-main-btn ud-blue-btn">
 						Neuro ICU
 					</a>	
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-blue-btn">
+					<a href="" rel="nofollow noopener" target="_self" class="ud-main-btn ud-blue-btn">
 						Stroke
 					</a>	
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-blue-btn">
+					<a href="" rel="nofollow noopener" target="_self" class="ud-main-btn ud-blue-btn">
 						Epilepsy
 					</a>	
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-blue-btn">
+					<a href="" rel="nofollow noopener" target="_self" class="ud-main-btn ud-blue-btn">
 						Headache
 					</a>
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-blue-btn">
+					<a href="" rel="nofollow noopener" target="_self" class="ud-main-btn ud-blue-btn">
 						Neuromuscular
 					</a>
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-blue-btn">
+					<a href="" rel="nofollow noopener" target="_self" class="ud-main-btn ud-blue-btn">
 						Movement
 					</a>
-					<a href="" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-blue-btn">
+					<a href="" rel="nofollow noopener" target="_self" class="ud-main-btn ud-blue-btn">
 						Neuroimmunology
 					</a>	
                 </li>
@@ -329,7 +413,7 @@
     </section>
 -->
     <!-- ====== Features End ====== -->
-	  </div>	
+	
     <!-- ====== About Start ====== -->
 <!--
     <section id="about" class="ud-about">
@@ -1163,7 +1247,7 @@
                     <a
                       href="https://lineicons.com/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                       >Lineicons
                     </a>
                   </li>
@@ -1171,7 +1255,7 @@
                     <a
                       href="https://ecommercehtml.com/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                       >Ecommerce HTML</a
                     >
                   </li>
@@ -1179,7 +1263,7 @@
                     <a
                       href="https://ayroui.com/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                       >Ayro UI</a
                     >
                   </li>
@@ -1187,7 +1271,7 @@
                     <a
                       href="https://graygrids.com/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                       >Plain Admin</a
                     >
                   </li>
@@ -1202,7 +1286,7 @@
                     <a
                       href="https://ayroui.com/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                     >
                       <img
                         src="assets/images/footer/brands/ayroui.svg"
@@ -1214,7 +1298,7 @@
                     <a
                       href="https://ecommercehtml.com/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                     >
                       <img
                         src="assets/images/footer/brands/ecommerce-html.svg"
@@ -1226,7 +1310,7 @@
                     <a
                       href="https://graygrids.com/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                     >
                       <img
                         src="assets/images/footer/brands/graygrids.svg"
@@ -1238,7 +1322,7 @@
                     <a
                       href="https://lineicons.com/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                     >
                       <img
                         src="assets/images/footer/brands/lineicons.svg"
@@ -1250,7 +1334,7 @@
                     <a
                       href="https://uideck.com/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                     >
                       <img
                         src="assets/images/footer/brands/uideck.svg"
@@ -1262,7 +1346,7 @@
                     <a
                       href="https://tailwindtemplates.co/"
                       rel="nofollow noopner"
-                      target="_blank"
+                      target="_self"
                     >
                       <img
                         src="assets/images/footer/brands/tailwindtemplates.svg"
